@@ -830,11 +830,11 @@ function configData() {
             </div>
             <div class="row">
                 <div class="column left">
-                    <input onchange=handleInputChange(this) name="elementShadowColor1" type+"text" 
+                    <input onchange=handleInputChange(this) name="a" type+"text" 
                         class="swal2-input" value="Màu hiệu ứng" disabled>
                 </div>
                 <div class="column middle">
-                    <input onchange=handleInputChange(this) name="a" type="color" 
+                    <input onchange=handleInputChange(this) name="elementShadowColor1" type="color" 
                         class="swal2-input" value="${config.elementShadowColor1}">
                 </div>
                 <div class="column right">
